@@ -13,7 +13,8 @@ END;
 /
 
 --------- Insert and set default value
-/*SET SERVEROUTPUT ON 
+----- this portion will be run only once 
+SET SERVEROUTPUT ON 
 DECLARE 
     v_name  basicInfo.studentName%TYPE := 'Biduyt';
     v_roll basicInfo.roll%TYPE := 1907118;
@@ -28,7 +29,7 @@ DECLARE
     INSERT INTO basicInfo VALUES(v_name,v_roll,v_email,v_boarder,v_blood_grp,v_dept,v_address,v_room_no);
 END;
 /
-SELECT * FROM basicInfo; */
+SELECT * FROM basicInfo;
 
 ---------Row type
 SET SERVEROUTPUT ON 
