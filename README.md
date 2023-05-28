@@ -7,8 +7,16 @@
 - Guest meal information store in <b>'guestMeal'</b> table. 
 
 ## Database Schema: 
-
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/Schema.png)
 
 ## Tables: 
-- <b> basicInfo Table:</b> <br>
-
+- <h3> basicInfo Table: </h3>
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/basicInfo.png)
+- <h3> monthlyPayment Table: </h3>
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/monthlyPayment.png)
+- <h3> perDayBudget Table: </h3>
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/perDayBudget.png)
+- <h3> studentFeedback Table: </h3>
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/studentFeedback.png)
+- <h3> guestMeal Table: </h3>
+![alt text](https://github.com/DatabaseSystem19/database-project-Sk-Azraf-Sami/blob/main/Images/guestMeal.png)
