@@ -68,7 +68,7 @@ END;
 SET SERVEROUTPUT ON 
 CREATE OR REPLACE FUNCTION fun(stuRoll NUMBER)
 RETURN VARCHAR AS 
-value basicInfo.blood_grp%TYPE;  ---- value === > in hand cash 
+value basicInfo.blood_grp%TYPE; 
 BEGIN 
     SELECT blood_grp INTO value FROM basicInfo WHERE roll = stuRoll;
     return value;
