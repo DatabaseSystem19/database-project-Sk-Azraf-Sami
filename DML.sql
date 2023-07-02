@@ -191,7 +191,7 @@ WHERE other_cost <= 1000;
 ------- There is no ON UPDATE CASCADE
 ------- Source: https://stackoverflow.com/questions/22881022/sql-on-delete-cascade-and-on-update-cascade
 ------- So, update basicInfo set roll = 1907118 where roll=1907115; -> is not working 
-DELETE from basicInfo where roll = 1907115; 
+DELETE from basicInfo where roll = 1907114; 
 
 
 
